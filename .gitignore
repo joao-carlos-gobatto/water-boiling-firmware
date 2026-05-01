@@ -1,5 +1,27 @@
-build
-sdkconfig*
-managed_components
-.devcontainer
-.vscode
+# ESP-IDF Build
+build/
+
+# SDKConfig
+sdkconfig
+sdkconfig.old
+
+# Clangd files
+compile_commands.json
+
+# CMake cache
+CMakeFiles/
+CMakeCache.txt
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.swp
+*~
+
+# Docker local config
+docker-compose.override.yml
+
+# Env variables
+.env
